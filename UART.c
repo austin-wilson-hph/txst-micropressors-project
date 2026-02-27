@@ -1,8 +1,8 @@
 //Spring 2026
 //Austin Wilson
-//EE3320 Microprocessors Dr. Mark Welker
-//lab4.c
+//UART.c
 //02/19/2026
+//Implementation of the UART1 serial communication for the Blackboard hardware using memory-mapped I/O.
 
 #include <stdint.h> // so I can use the integers I want
 #include <stdio.h> // so I can use sprintf
@@ -122,4 +122,5 @@ int main(void) {
         sprintf(result, "The largest prime is %d\r\n", userNum);
         uartPutString(result);
     }
+
 }
