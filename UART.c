@@ -1,9 +1,10 @@
-//Spring 2026
-//Austin Wilson
-//UART.c
-//02/19/2026
-//Implementation of the UART1 serial communication for the Blackboard hardware using memory-mapped I/O.
-
+/******************************************************************************
+ * File Name:    UART_Driver.c
+ * Author:       Austin Wilson
+ * Date:         February 2026
+ * Description:  Implementation of UART1 serial communication for the 
+ * Blackboard hardware using memory-mapped I/O.
+ *****************************************************************************/
 #include <stdint.h> // so I can use the integers I want
 #include <stdio.h> // so I can use sprintf
 #include "sleep.h"
@@ -124,3 +125,4 @@ int main(void) {
     }
 
 }
+
